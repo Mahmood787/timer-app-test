@@ -43,7 +43,7 @@ class Timer extends Component <{},StateType> {
             }))
           }
           }
-      },1)
+      },1000)
     this.setState({ isOn: true }); 
   }
   stopTimer() {
